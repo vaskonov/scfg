@@ -1,0 +1,1106 @@
+[
+    {
+        "input": "I offer a pension of 0%",
+        "output": [
+            "{\"Offer\":{\"Pension Fund\":\"0%\"}}"
+        ]
+    },
+    {
+        "input": "I offer a pension of 10%",
+        "output": [
+            "{\"Offer\":{\"Pension Fund\":\"10%\"}}"
+        ]
+    },
+    {
+        "input": "I offer a pension of 20%",
+        "output": [
+            "{\"Offer\":{\"Pension Fund\":\"20%\"}}"
+        ]
+    },
+    {
+        "input": "I offer a salary of 60,000",
+        "output": [
+            "{\"Offer\":{\"Salary\":\"60,000 USD\"}}"
+        ]
+    },
+    {
+        "input": "I offer a salary of 90,000",
+        "output": [
+            "{\"Offer\":{\"Salary\":\"90,000 USD\"}}"
+        ]
+    },
+    {
+        "input": "I offer a salary of 120,000",
+        "output": [
+            "{\"Offer\":{\"Salary\":\"120,000 USD\"}}"
+        ]
+    },
+    {
+        "input": "I offer a workday of 8 hours",
+        "output": [
+            "{\"Offer\":{\"Working Hours\":\"8 hours\"}}"
+        ]
+    },
+    {
+        "input": "I offer a workday of 9 hours",
+        "output": [
+            "{\"Offer\":{\"Working Hours\":\"9 hours\"}}"
+        ]
+    },
+    {
+        "input": "I offer a workday of 10 hours",
+        "output": [
+            "{\"Offer\":{\"Working Hours\":\"10 hours\"}}"
+        ]
+    },
+    {
+        "input": "I offer a leased car",
+        "output": [
+            "{\"Offer\":{\"Leased Car\":\"With leased car\"}}"
+        ]
+    },
+    {
+        "input": "I offer no leased car",
+        "output": [
+            "{\"Offer\":{\"Leased Car\":\"Without leased car\"}}"
+        ]
+    },
+    {
+        "input": "I offer a position of qa",
+        "output": [
+            "{\"Offer\":{\"Job Description\":\"QA\"}}"
+        ]
+    },
+    {
+        "input": "I offer a position of programmer",
+        "output": [
+            "{\"Offer\":{\"Job Description\":\"Programmer\"}}"
+        ]
+    },
+    {
+        "input": "I offer a position of team manager",
+        "output": [
+            "{\"Offer\":{\"Job Description\":\"Team Manager\"}}"
+        ]
+    },
+    {
+        "input": "I offer a position of project manager",
+        "output": [
+            "{\"Offer\":{\"Job Description\":\"Project Manager\"}}"
+        ]
+    },
+    {
+        "input": "I offer a fast promotion track",
+        "output": [
+            "{\"Offer\":{\"Promotion Possibilities\":\"Fast promotion track\"}}"
+        ]
+    },
+    {
+        "input": "I offer a slow promotion track",
+        "output": [
+            "{\"Offer\":{\"Promotion Possibilities\":\"Slow promotion track\"}}"
+        ]
+    },
+    {
+        "input": "I offer no agreement on leased car",
+        "output": [
+            "{\"Offer\":{\"Leased Car\":\"No agreement\"}}"
+        ]
+    },
+    {
+        "input": "I offer no agreement on pension",
+        "output": [
+            "{\"Offer\":{\"Pension Fund\":\"No agreement\"}}"
+        ]
+    },
+    {
+        "input": "I offer no agreement on promotion track",
+        "output": [
+            "{\"Offer\":{\"Promotion Possibilities\":\"No agreement\"}}"
+        ]
+    },
+    {
+        "input": "I accept the offer",
+        "output": [
+            "{\"Accept\":true}"
+        ]
+    },
+    {
+        "input": "I accept the salary",
+        "output": [
+            "{\"Accept\":Salary}"
+        ]
+    },
+    {
+        "input": "I accept the job description",
+        "output": [
+            "{\"Accept\":Job Description}"
+        ]
+    },
+    {
+        "input": "I accept the pension fund",
+        "output": [
+            "{\"Accept\":Pension Fund}"
+        ]
+    },
+    {
+        "input": "I accept the company car",
+        "output": [
+            "{\"Accept\":Leased Car}"
+        ]
+    },
+    {
+        "input": "I accept the promotion track",
+        "output": [
+            "{\"Accept\":Promotion Possibilities}"
+        ]
+    },
+    {
+        "input": "I accept the working hours",
+        "output": [
+            "{\"Accept\":Working Hours}"
+        ]
+    },
+    {
+        "input": "I accept a pension of 0%",
+        "output": [
+            "{\"Accept\":{\"Pension Fund\":\"0%\"}}"
+        ]
+    },
+    {
+        "input": "I accept a pension of 10%",
+        "output": [
+            "{\"Accept\":{\"Pension Fund\":\"10%\"}}"
+        ]
+    },
+    {
+        "input": "I accept a pension of 20%",
+        "output": [
+            "{\"Accept\":{\"Pension Fund\":\"20%\"}}"
+        ]
+    },
+    {
+        "input": "I accept a salary of 60,000",
+        "output": [
+            "{\"Accept\":{\"Salary\":\"60,000 USD\"}}"
+        ]
+    },
+    {
+        "input": "I accept a salary of 90,000",
+        "output": [
+            "{\"Accept\":{\"Salary\":\"90,000 USD\"}}"
+        ]
+    },
+    {
+        "input": "I accept a salary of 120,000",
+        "output": [
+            "{\"Accept\":{\"Salary\":\"120,000 USD\"}}"
+        ]
+    },
+    {
+        "input": "I accept a workday of 8 hours",
+        "output": [
+            "{\"Accept\":{\"Working Hours\":\"8 hours\"}}"
+        ]
+    },
+    {
+        "input": "I accept a workday of 9 hours",
+        "output": [
+            "{\"Accept\":{\"Working Hours\":\"9 hours\"}}"
+        ]
+    },
+    {
+        "input": "I accept a workday of 10 hours",
+        "output": [
+            "{\"Accept\":{\"Working Hours\":\"10 hours\"}}"
+        ]
+    },
+    {
+        "input": "I accept a leased car",
+        "output": [
+            "{\"Accept\":{\"Leased Car\":\"With leased car\"}}"
+        ]
+    },
+    {
+        "input": "I accept no leased car",
+        "output": [
+            "{\"Accept\":{\"Leased Car\":\"Without leased car\"}}"
+        ]
+    },
+    {
+        "input": "I accept a position of qa",
+        "output": [
+            "{\"Accept\":{\"Job Description\":\"QA\"}}"
+        ]
+    },
+    {
+        "input": "I accept a position of programmer",
+        "output": [
+            "{\"Accept\":{\"Job Description\":\"Programmer\"}}"
+        ]
+    },
+    {
+        "input": "I accept a position of team manager",
+        "output": [
+            "{\"Accept\":{\"Job Description\":\"Team Manager\"}}"
+        ]
+    },
+    {
+        "input": "I accept a position of project manager",
+        "output": [
+            "{\"Accept\":{\"Job Description\":\"Project Manager\"}}"
+        ]
+    },
+    {
+        "input": "I accept a fast promotion track",
+        "output": [
+            "{\"Accept\":{\"Promotion Possibilities\":\"Fast promotion track\"}}"
+        ]
+    },
+    {
+        "input": "I accept a slow promotion track",
+        "output": [
+            "{\"Accept\":{\"Promotion Possibilities\":\"Slow promotion track\"}}"
+        ]
+    },
+    {
+        "input": "I accept no agreement on leased car",
+        "output": [
+            "{\"Accept\":{\"Leased Car\":\"No agreement\"}}"
+        ]
+    },
+    {
+        "input": "I accept no agreement on pension",
+        "output": [
+            "{\"Accept\":{\"Pension Fund\":\"No agreement\"}}"
+        ]
+    },
+    {
+        "input": "I accept no agreement on promotion track",
+        "output": [
+            "{\"Accept\":{\"Promotion Possibilities\":\"No agreement\"}}"
+        ]
+    },
+    {
+        "input": "I reject the offer",
+        "output": [
+            "{\"Reject\":true}"
+        ]
+    },
+    {
+        "input": "I reject the salary",
+        "output": [
+            "{\"Reject\":Salary}"
+        ]
+    },
+    {
+        "input": "I reject the job description",
+        "output": [
+            "{\"Reject\":Job Description}"
+        ]
+    },
+    {
+        "input": "I reject the pension fund",
+        "output": [
+            "{\"Reject\":Pension Fund}"
+        ]
+    },
+    {
+        "input": "I reject the company car",
+        "output": [
+            "{\"Reject\":Leased Car}"
+        ]
+    },
+    {
+        "input": "I reject the promotion track",
+        "output": [
+            "{\"Reject\":Promotion Possibilities}"
+        ]
+    },
+    {
+        "input": "I reject the working hours",
+        "output": [
+            "{\"Reject\":Working Hours}"
+        ]
+    },
+    {
+        "input": "I reject a pension of 0%",
+        "output": [
+            "{\"Reject\":{\"Pension Fund\":\"0%\"}}"
+        ]
+    },
+    {
+        "input": "I reject a pension of 10%",
+        "output": [
+            "{\"Reject\":{\"Pension Fund\":\"10%\"}}"
+        ]
+    },
+    {
+        "input": "I reject a pension of 20%",
+        "output": [
+            "{\"Reject\":{\"Pension Fund\":\"20%\"}}"
+        ]
+    },
+    {
+        "input": "I reject a salary of 60,000",
+        "output": [
+            "{\"Reject\":{\"Salary\":\"60,000 USD\"}}"
+        ]
+    },
+    {
+        "input": "I reject a salary of 90,000",
+        "output": [
+            "{\"Reject\":{\"Salary\":\"90,000 USD\"}}"
+        ]
+    },
+    {
+        "input": "I reject a salary of 120,000",
+        "output": [
+            "{\"Reject\":{\"Salary\":\"120,000 USD\"}}"
+        ]
+    },
+    {
+        "input": "I reject a workday of 8 hours",
+        "output": [
+            "{\"Reject\":{\"Working Hours\":\"8 hours\"}}"
+        ]
+    },
+    {
+        "input": "I reject a workday of 9 hours",
+        "output": [
+            "{\"Reject\":{\"Working Hours\":\"9 hours\"}}"
+        ]
+    },
+    {
+        "input": "I reject a workday of 10 hours",
+        "output": [
+            "{\"Reject\":{\"Working Hours\":\"10 hours\"}}"
+        ]
+    },
+    {
+        "input": "I reject a leased car",
+        "output": [
+            "{\"Reject\":{\"Leased Car\":\"With leased car\"}}"
+        ]
+    },
+    {
+        "input": "I reject no leased car",
+        "output": [
+            "{\"Reject\":{\"Leased Car\":\"Without leased car\"}}"
+        ]
+    },
+    {
+        "input": "I reject a position of qa",
+        "output": [
+            "{\"Reject\":{\"Job Description\":\"QA\"}}"
+        ]
+    },
+    {
+        "input": "I reject a position of programmer",
+        "output": [
+            "{\"Reject\":{\"Job Description\":\"Programmer\"}}"
+        ]
+    },
+    {
+        "input": "I reject a position of team manager",
+        "output": [
+            "{\"Reject\":{\"Job Description\":\"Team Manager\"}}"
+        ]
+    },
+    {
+        "input": "I reject a position of project manager",
+        "output": [
+            "{\"Reject\":{\"Job Description\":\"Project Manager\"}}"
+        ]
+    },
+    {
+        "input": "I reject a fast promotion track",
+        "output": [
+            "{\"Reject\":{\"Promotion Possibilities\":\"Fast promotion track\"}}"
+        ]
+    },
+    {
+        "input": "I reject a slow promotion track",
+        "output": [
+            "{\"Reject\":{\"Promotion Possibilities\":\"Slow promotion track\"}}"
+        ]
+    },
+    {
+        "input": "I reject no agreement on leased car",
+        "output": [
+            "{\"Reject\":{\"Leased Car\":\"No agreement\"}}"
+        ]
+    },
+    {
+        "input": "I reject no agreement on pension",
+        "output": [
+            "{\"Reject\":{\"Pension Fund\":\"No agreement\"}}"
+        ]
+    },
+    {
+        "input": "I reject no agreement on promotion track",
+        "output": [
+            "{\"Reject\":{\"Promotion Possibilities\":\"No agreement\"}}"
+        ]
+    },
+    {
+        "input": "I insist on the offer",
+        "output": [
+            "{\"Insist\":true}"
+        ]
+    },
+    {
+        "input": "I insist on the salary",
+        "output": [
+            "{\"Insist\":Salary}"
+        ]
+    },
+    {
+        "input": "I insist on the job description",
+        "output": [
+            "{\"Insist\":Job Description}"
+        ]
+    },
+    {
+        "input": "I insist on the pension fund",
+        "output": [
+            "{\"Insist\":Pension Fund}"
+        ]
+    },
+    {
+        "input": "I insist on the company car",
+        "output": [
+            "{\"Insist\":Leased Car}"
+        ]
+    },
+    {
+        "input": "I insist on the promotion track",
+        "output": [
+            "{\"Insist\":Promotion Possibilities}"
+        ]
+    },
+    {
+        "input": "I insist on the working hours",
+        "output": [
+            "{\"Insist\":Working Hours}"
+        ]
+    },
+    {
+        "input": "I insist on a pension of 0%",
+        "output": [
+            "{\"Insist\":{\"Pension Fund\":\"0%\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a pension of 10%",
+        "output": [
+            "{\"Insist\":{\"Pension Fund\":\"10%\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a pension of 20%",
+        "output": [
+            "{\"Insist\":{\"Pension Fund\":\"20%\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a salary of 60,000",
+        "output": [
+            "{\"Insist\":{\"Salary\":\"60,000 USD\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a salary of 90,000",
+        "output": [
+            "{\"Insist\":{\"Salary\":\"90,000 USD\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a salary of 120,000",
+        "output": [
+            "{\"Insist\":{\"Salary\":\"120,000 USD\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a workday of 8 hours",
+        "output": [
+            "{\"Insist\":{\"Working Hours\":\"8 hours\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a workday of 9 hours",
+        "output": [
+            "{\"Insist\":{\"Working Hours\":\"9 hours\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a workday of 10 hours",
+        "output": [
+            "{\"Insist\":{\"Working Hours\":\"10 hours\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a leased car",
+        "output": [
+            "{\"Insist\":{\"Leased Car\":\"With leased car\"}}"
+        ]
+    },
+    {
+        "input": "I insist on no leased car",
+        "output": [
+            "{\"Insist\":{\"Leased Car\":\"Without leased car\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a position of qa",
+        "output": [
+            "{\"Insist\":{\"Job Description\":\"QA\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a position of programmer",
+        "output": [
+            "{\"Insist\":{\"Job Description\":\"Programmer\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a position of team manager",
+        "output": [
+            "{\"Insist\":{\"Job Description\":\"Team Manager\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a position of project manager",
+        "output": [
+            "{\"Insist\":{\"Job Description\":\"Project Manager\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a fast promotion track",
+        "output": [
+            "{\"Insist\":{\"Promotion Possibilities\":\"Fast promotion track\"}}"
+        ]
+    },
+    {
+        "input": "I insist on a slow promotion track",
+        "output": [
+            "{\"Insist\":{\"Promotion Possibilities\":\"Slow promotion track\"}}"
+        ]
+    },
+    {
+        "input": "I insist on no agreement on leased car",
+        "output": [
+            "{\"Insist\":{\"Leased Car\":\"No agreement\"}}"
+        ]
+    },
+    {
+        "input": "I insist on no agreement on pension",
+        "output": [
+            "{\"Insist\":{\"Pension Fund\":\"No agreement\"}}"
+        ]
+    },
+    {
+        "input": "I insist on no agreement on promotion track",
+        "output": [
+            "{\"Insist\":{\"Promotion Possibilities\":\"No agreement\"}}"
+        ]
+    },
+    {
+        "input": "I quit",
+        "output": [
+            "{\"Quit\": true}"
+        ]
+    },
+    {
+        "input": "Hello",
+        "output": [
+            "{\"Greet\":true}"
+        ]
+    },
+    {
+        "input": "Do you offer a pension of 0%?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Pension Fund\":\"0%\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a pension of 10%?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Pension Fund\":\"10%\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a pension of 20%?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Pension Fund\":\"20%\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a salary of 60,000?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Salary\":\"60,000 USD\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a salary of 90,000?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Salary\":\"90,000 USD\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a salary of 120,000?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Salary\":\"120,000 USD\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a workday of 8 hours?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Working Hours\":\"8 hours\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a workday of 9 hours?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Working Hours\":\"9 hours\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a workday of 10 hours?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Working Hours\":\"10 hours\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a leased car?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Leased Car\":\"With leased car\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer no leased car?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Leased Car\":\"Without leased car\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a position of qa?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Job Description\":\"QA\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a position of programmer?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Job Description\":\"Programmer\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a position of team manager?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Job Description\":\"Team Manager\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a position of project manager?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Job Description\":\"Project Manager\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a fast promotion track?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Promotion Possibilities\":\"Fast promotion track\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer a slow promotion track?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Promotion Possibilities\":\"Slow promotion track\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer no agreement on leased car?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Leased Car\":\"No agreement\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer no agreement on pension?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Pension Fund\":\"No agreement\"}}}"
+        ]
+    },
+    {
+        "input": "Do you offer no agreement on promotion track?",
+        "output": [
+            "{\"Query\":{\"Offer\":{\"Promotion Possibilities\":\"No agreement\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a pension of 0%?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Pension Fund\":\"0%\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a pension of 10%?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Pension Fund\":\"10%\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a pension of 20%?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Pension Fund\":\"20%\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a salary of 60,000?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Salary\":\"60,000 USD\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a salary of 90,000?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Salary\":\"90,000 USD\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a salary of 120,000?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Salary\":\"120,000 USD\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a workday of 8 hours?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Working Hours\":\"8 hours\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a workday of 9 hours?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Working Hours\":\"9 hours\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a workday of 10 hours?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Working Hours\":\"10 hours\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a leased car?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Leased Car\":\"With leased car\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject no leased car?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Leased Car\":\"Without leased car\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a position of qa?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Job Description\":\"QA\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a position of programmer?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Job Description\":\"Programmer\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a position of team manager?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Job Description\":\"Team Manager\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a position of project manager?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Job Description\":\"Project Manager\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a fast promotion track?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Promotion Possibilities\":\"Fast promotion track\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject a slow promotion track?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Promotion Possibilities\":\"Slow promotion track\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject no agreement on leased car?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Leased Car\":\"No agreement\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject no agreement on pension?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Pension Fund\":\"No agreement\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject no agreement on promotion track?",
+        "output": [
+            "{\"Query\":{\"Reject\":{\"Promotion Possibilities\":\"No agreement\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a pension of 0%?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Pension Fund\":\"0%\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a pension of 10%?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Pension Fund\":\"10%\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a pension of 20%?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Pension Fund\":\"20%\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a salary of 60,000?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Salary\":\"60,000 USD\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a salary of 90,000?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Salary\":\"90,000 USD\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a salary of 120,000?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Salary\":\"120,000 USD\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a workday of 8 hours?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Working Hours\":\"8 hours\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a workday of 9 hours?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Working Hours\":\"9 hours\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a workday of 10 hours?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Working Hours\":\"10 hours\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a leased car?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Leased Car\":\"With leased car\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept no leased car?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Leased Car\":\"Without leased car\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a position of qa?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Job Description\":\"QA\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a position of programmer?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Job Description\":\"Programmer\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a position of team manager?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Job Description\":\"Team Manager\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a position of project manager?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Job Description\":\"Project Manager\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a fast promotion track?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Promotion Possibilities\":\"Fast promotion track\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept a slow promotion track?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Promotion Possibilities\":\"Slow promotion track\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept no agreement on leased car?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Leased Car\":\"No agreement\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept no agreement on pension?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Pension Fund\":\"No agreement\"}}}"
+        ]
+    },
+    {
+        "input": "Do you accept no agreement on promotion track?",
+        "output": [
+            "{\"Query\":{\"Accept\":{\"Promotion Possibilities\":\"No agreement\"}}}"
+        ]
+    },
+    {
+        "input": "Do you reject the offer?",
+        "output": [
+            "{\"Query\":{\"Reject\":true}}"
+        ]
+    },
+    {
+        "input": "Do you reject the salary?",
+        "output": [
+            "{\"Query\":{\"Reject\":Salary}}"
+        ]
+    },
+    {
+        "input": "Do you reject the job description?",
+        "output": [
+            "{\"Query\":{\"Reject\":Job Description}}"
+        ]
+    },
+    {
+        "input": "Do you reject the pension fund?",
+        "output": [
+            "{\"Query\":{\"Reject\":Pension Fund}}"
+        ]
+    },
+    {
+        "input": "Do you reject the company car?",
+        "output": [
+            "{\"Query\":{\"Reject\":Leased Car}}"
+        ]
+    },
+    {
+        "input": "Do you reject the promotion track?",
+        "output": [
+            "{\"Query\":{\"Reject\":Promotion Possibilities}}"
+        ]
+    },
+    {
+        "input": "Do you reject the working hours?",
+        "output": [
+            "{\"Query\":{\"Reject\":Working Hours}}"
+        ]
+    },
+    {
+        "input": "Do you accept the offer?",
+        "output": [
+            "{\"Query\":{\"Accept\":true}}"
+        ]
+    },
+    {
+        "input": "Do you accept the salary?",
+        "output": [
+            "{\"Query\":{\"Accept\":Salary}}"
+        ]
+    },
+    {
+        "input": "Do you accept the job description?",
+        "output": [
+            "{\"Query\":{\"Accept\":Job Description}}"
+        ]
+    },
+    {
+        "input": "Do you accept the pension fund?",
+        "output": [
+            "{\"Query\":{\"Accept\":Pension Fund}}"
+        ]
+    },
+    {
+        "input": "Do you accept the company car?",
+        "output": [
+            "{\"Query\":{\"Accept\":Leased Car}}"
+        ]
+    },
+    {
+        "input": "Do you accept the promotion track?",
+        "output": [
+            "{\"Query\":{\"Accept\":Promotion Possibilities}}"
+        ]
+    },
+    {
+        "input": "Do you accept the working hours?",
+        "output": [
+            "{\"Query\":{\"Accept\":Working Hours}}"
+        ]
+    },
+    {
+        "input": "What do you offer about salary?",
+        "output": [
+            "{\"Query\":{\"Offer\":\"Salary\"}}"
+        ]
+    },
+    {
+        "input": "What do you offer about job description?",
+        "output": [
+            "{\"Query\":{\"Offer\":\"Job Description\"}}"
+        ]
+    },
+    {
+        "input": "What do you offer about pension fund?",
+        "output": [
+            "{\"Query\":{\"Offer\":\"Pension Fund\"}}"
+        ]
+    },
+    {
+        "input": "What do you offer about company car?",
+        "output": [
+            "{\"Query\":{\"Offer\":\"Leased Car\"}}"
+        ]
+    },
+    {
+        "input": "What do you offer about promotion track?",
+        "output": [
+            "{\"Query\":{\"Offer\":\"Promotion Possibilities\"}}"
+        ]
+    },
+    {
+        "input": "What do you offer about working hours?",
+        "output": [
+            "{\"Query\":{\"Offer\":\"Working Hours\"}}"
+        ]
+    },
+    {
+        "input": "What do you have to offer?",
+        "output": [
+            "{\"Query\":\"Offer\"}"
+        ]
+    }
+]
