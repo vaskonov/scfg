@@ -1,0 +1,123 @@
+== <root> ==
+* <offer>  	/ 	<offer>
+* <accept> 	/ 	<accept>
+* <reject> 	/ 	<reject>
+* <insist> 	/ 	<insist>
+* <quit>	/ 	<quit>
+* <greet>	/ 	<greet>
+* <query>	/ 	<query>
+
+== <quit> == 
+* I quit   			/ 	{"Quit": true}
+
+== <greet> ==
+* Hello  			/ 	{"Greet":true}
+
+== <offer> ==
+* I <offers> 				/	 <offers>
+== <offers> ==
+* offer <issue_value>		/   {"Offer":<issue_value>}
+
+== <accept> ==
+* I <accepts> 				/ 	<accepts>
+== <accepts> ==
+* <accept_single> 			/	<accept_single>
+* <accept_issue> 			/	<accept_issue>
+* <accept_issue_value> 		/	<accept_issue_value>
+== <accept_single> ==
+* accept the offer 			/   {"Accept":true}
+== <accept_issue> ==
+* accept the <issue> 		/   {"Accept":<issue>}
+== <accept_issue_value> ==
+* accept <issue_value> 		/   {"Accept":<issue_value>}
+
+== <reject> ==
+* I <rejects> 				/	<rejects>
+== <rejects> ==
+* <reject_single>	 		/	<reject_single>
+* <reject_issue> 			/	<reject_issue>
+* <reject_issue_value> 		/	<reject_issue_value>
+== <reject_single> ==
+* reject the offer 			/   {"Reject":true}
+== <reject_issue> ==
+* reject the <issue> 		/   {"Reject":<issue>}
+== <reject_issue_value> ==
+* reject <issue_value> 		/   {"Reject":<issue_value>}
+
+== <insist> ==
+* I <insists> 				/ 	<insists>
+== <insists> ==
+* <insist_single> 			/	<insist_single>
+* <insist_issue> 			/	<insist_issue>
+* <insist_issue_value> 		/	<insist_issue_value>
+== <insist_single> ==
+* insist on the offer 		/   {"Insist":true}
+== <insist_issue> ==
+* insist on the <issue> 	/   {"Insist":<issue>}
+== <insist_issue_value> ==
+* insist on <issue_value> 	/   {"Insist":<issue_value>}
+
+== <query> ==
+* <queryYN> 	/   <queryYN>
+* <queryWH> 	/   <queryWH>
+
+== <queryYN> ==
+* Do you <offers>? 					/   {"Query":<offers>}
+* Do you <reject_issue_value>? 		/   {"Query":<reject_issue_value>}
+* Do you <accept_issue_value>? 		/   {"Query":<accept_issue_value>}
+* Do you <reject_single>? 			/   {"Query":<reject_single>}
+* Do you <reject_issue>? 			/   {"Query":<reject_issue>}
+* Do you <accept_single>? 			/   {"Query":<accept_single>}
+* Do you <accept_issue>? 			/   {"Query":<accept_issue>}
+
+== <queryWH> ==
+* What do you offer about <issue>?	/   {"Query":{"Offer":"<issue>"}}
+* What do you have to offer? 		/   {"Query":"Offer"}
+
+== <issue_value> ==
+* a pension of <pensions> 			/   {"Pension Fund":"<pensions>"}
+* a salary of <salary>				/   {"Salary":"<salary>"}
+* a workday of <hours> 				/   {"Working Hours":"<hours>"}
+* a leased car 						/   {"Leased Car":"With leased car"}
+* no leased car 					/   {"Leased Car":"Without leased car"}
+* a position of <jobs>     			/   {"Job Description":"<jobs>"}
+* <promotional> 					/   {"Promotion Possibilities":"<promotional>"}
+* no agreement on <noagissues>  	/   <noagissues>
+
+== <noagissues> ==
+* leased car 				/   {"Leased Car":"No agreement"}
+* pension 					/   {"Pension Fund":"No agreement"}
+* promotion track 			/   {"Promotion Possibilities":"No agreement"}
+
+== <issue> ==
+* salary 				/   Salary
+* job description  		/   Job Description
+* pension fund 			/   Pension Fund
+* company car       	/   Leased Car
+* promotion track  		/   Promotion Possibilities
+* working hours      	/   Working Hours
+
+== <salary> ==
+* 60,000             	/   60,000 USD
+* 90,000             	/   90,000 USD
+* 120,000             	/   120,000 USD
+
+== <pensions> ==
+* 0%             		/   0%
+* 10%             		/   10%
+* 20%             		/   20%
+
+== <hours> ==
+* 8 hours 				/ 8 hours
+* 9 hours 				/ 9 hours
+* 10 hours 				/ 10 hours
+
+== <jobs> ==
+* qa       		       	/   QA
+* programmer    	  	/   Programmer
+* team manager    		/   Team Manager
+* project manager 		/   Project Manager
+
+== <promotional> ==
+* a fast promotion track	/   Fast promotion track
+* a slow promotion track	/   Slow promotion track
