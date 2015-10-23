@@ -1,8 +1,0 @@
-# This recursive grammar translates from JSON to Hidden Vector State format
-
-== <root> ==
-* <expression> / <expression>
-
-== <expression> ==
-* {"<any>": "<expression>"} / <any>(<expression>)
-* "<any>" / <any>

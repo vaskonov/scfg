@@ -1,6 +1,0 @@
-# This recursive grammar translates expressions from infix to prefix.
-
-== <expr> ==
-* a / a
-* (<expr>1 + <expr>2) / ADD(<expr>1,<expr>2)
-* (<expr>1 * <expr>2) / MUL(<expr>1,<expr>2)

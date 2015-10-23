@@ -1,5 +1,0 @@
-# This is a minimal, 1-level grammar that just translates a to b and c to d.
-
-== <root> ==
-* a / b
-* c / d
