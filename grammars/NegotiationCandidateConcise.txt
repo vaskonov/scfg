@@ -2,7 +2,6 @@
 * <offer>  	/ 	<offer>
 * <accept> 	/ 	<accept>
 * <reject> 	/ 	<reject>
-* <insist> 	/ 	<insist>
 * <quit>	/ 	<quit>
 * <greet>	/ 	<greet>
 * <query>	/ 	<query>
@@ -44,33 +43,7 @@
 == <reject_issue_value> ==
 * reject <issue_value> 		/   {"Reject":<issue_value>}
 
-== <insist> ==
-* I <insists> 				/ 	<insists>
-== <insists> ==
-* <insist_single> 			/	<insist_single>
-* <insist_issue> 			/	<insist_issue>
-* <insist_issue_value> 		/	<insist_issue_value>
-== <insist_single> ==
-* insist on the offer 		/   {"Insist":true}
-== <insist_issue> ==
-* insist on the <issue> 	/   {"Insist":<issue>}
-== <insist_issue_value> ==
-* insist on <issue_value> 	/   {"Insist":<issue_value>}
-
 == <query> ==
-* <queryYN> 	/   <queryYN>
-* <queryWH> 	/   <queryWH>
-
-== <queryYN> ==
-* Do you <offers>? 					/   {"Query":<offers>}
-* Do you <reject_issue_value>? 		/   {"Query":<reject_issue_value>}
-* Do you <accept_issue_value>? 		/   {"Query":<accept_issue_value>}
-* Do you <reject_single>? 			/   {"Query":<reject_single>}
-* Do you <reject_issue>? 			/   {"Query":<reject_issue>}
-* Do you <accept_single>? 			/   {"Query":<accept_single>}
-* Do you <accept_issue>? 			/   {"Query":<accept_issue>}
-
-== <queryWH> ==
 * What do you offer about <issue>?	/   {"Query":{"Offer":"<issue>"}}
 * What do you have to offer? 		/   {"Query":"Offer"}
 
