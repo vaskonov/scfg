@@ -206,18 +206,9 @@ module.exports = {
 
 // DEMO PROGRAM:
 if (process.argv[1] === __filename) {
-//	console.log("scfg.js demo start");
 	var fs = require('fs');
-	var grammar = module.exports.fromString(fs.readFileSync("grammars/NegotiationCandidateConcise.txt",'utf8'));
-//	console.log("\nGRAMMAR:\n");
-//	console.dir(grammar);
-	
-//	console.log("\nEXPANDED GRAMMAR:\n");
+	var grammar = module.exports.fromString(fs.readFileSync("grammars/NegotiationCandidateConcise.txt",'utf8'));	
 	var expandedGrammar = grammar.expand(grammar.root(), 10, null, 0);
-	//console.dir(expandedGrammar);
 	console.log(JSON.stringify(module.exports.embedSet(expandedGrammar), null, 4))
-//	for (var input in expandedGrammar) 
-//		console.log(input+" / "+ expandedGrammar[input]);
-	//console.log("scfg.js demo end");
 }
 
